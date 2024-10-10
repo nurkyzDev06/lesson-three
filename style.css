@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+h1 {
+    color: red;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 10px;
+    text-transform: capitalize;
+}
+
+h2 {
+    color: green;
+    font-size: 40px;
+    padding: 20px 0;
+    font-weight: 600;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+p {
+    color: crimson;
+    font-size: 18px;
+    width: 700px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.block {
+    width: 300px;
+    height: 400px;
+    background: blue;
+    border-radius: 20px;
+    border: 5px solid red;
+    margin: 30px 0;
+    box-shadow: 0 0 20px green;
+}
+
+.btn-one {
+    color: white;
+    background: blueviolet;
+    /*width: 150px;*/
+    /*height: 50px;*/
+    padding: 15px 35px;
+    margin: 0 0 30px 0;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.btn-two {
+    color: white;
+    background: green;
+    padding: 15px 35px;
+    margin: 0 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn-three {
+    color: white;
+    background: black;
+    padding: 15px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}
